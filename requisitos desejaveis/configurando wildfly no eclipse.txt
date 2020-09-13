@@ -1,0 +1,23 @@
+No Eclipse:
+Menu Window -> Show View -> Other
+
+Com a janela Show view aberta:
+1- Pesquise pela palavra server (no filtro aparecerá as opções Server log e Serves);
+2- Selecione "Servers" e clique OK;
+3- Aparecerá a ABA "Servers"
+	3.1 Se estiver exibindo um link "No server are available. Click this link to create a new server..." (indica que não existe servidor configurado)
+		Nesse ponto, clica no link para configurá-lo;
+		Procure pela pasta Red Hat JBoss Middleware e o server JBoss AS, WildFly & EAP Server Tools e clique em "NEXT"
+		Será baixado as informações onde está a configuração do servidor JBoss e suas dependências.
+		Aceita os termos de licença e clica no botão "Finish"
+		Será solicitado para reiniciar o Eclipse.
+	3.2 Na aba Server -> clicando no link "No server are available. Click this link to create a new server...", será visualizado várias configurações para os servidores JBoss
+		Acesse a pasta JBoss e escolha servidor WildFly de acordo com a versão baixada (escolha a maior versão que tiver) e clica em next
+		Nesse ponto, clica no primeito botão Browse e localize a pasta onde foi descompactado o servidor.
+		Necessário ter o JDK instalado na maquina, caso contrário, uma mensagem de warning será exibida
+		Clica em next para adicionar os projetos JSF ao servidor (so clicar no botão add)
+		Clica em finish para finalizar
+		
+		
+		
+		
